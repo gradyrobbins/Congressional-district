@@ -8,15 +8,69 @@
     </head>
 
     <body>
-    <nav></nav>
+  
+        <!-- Navigation Bar Component -->
+<nav class="navigation">
+    <!-- Navigation Link List Component -->
+    <ul class="list list--navigation">
+        <!-- Navigation Link Component -->
+        <li class="listitem--navigation">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="listitem--navigation">
+            <a href="careers.html">Careers</a>
+        </li>
+        <li class="listitem--navigation">
+            <a href="locations.html">Locations</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+  
 
     <header>
         <h1>Congressional district</h1>
     </header>
 
-    <article>
-        <header></header>
-        <section></section>
+    <article class="test">
+        <header>Jim Cooper</header>
+
+        <!-- In this section create elements for the representative's image, name, district info, and political affiliation.-->
+        <section class="basic-info">
+            <img src="https://www.govtrack.us/data/photos/400081-100px.jpeg" alt="Jim Cooper's Photo" height="250" width="250">
+            <ul>
+                <li>Name: Jim Cooper</li>
+                <li>District Info: Representative for Tennessee's 5th congressional district</li>
+                <li>Political Affiliation: Democrat</li>
+            </ul>
+        </section>
+
+        <!-- Beneath the basic information, you will create a sub-component, using a section tag, to list any committees the candidate is serving on. -->
+        <section class="committees">
+            <ul>
+                <li>House Committee on Armed Services</li>
+                    <ol><li>Ranking Member, Subcommittee on Strategic Forces</li>
+                        <li>Member, Subcommittee on Emerging Threats and Capabilities</li>
+                        <li>Member, Subcommittee on Tactical Air and Land Forces</li>
+                    </ol>
+                <li>House Committee on Oversight and Government Reform</li>
+                    <ul><li>Member, Subcommittee on Healthcare, Benefits, and Administrative Rules</li></ul>
+            </ul>
+        </section>
+
+        <!-- The last component will hold links to any legislation that your representative has enacted. -->
+        <section class="enacted-legislation">
+            <ul>
+                <p>Cooper was the primary sponsor of 5 bills that were enacted: </p>
+                <li>H.R. 482 (112th): Water Heater Rating Improvement Act of 2011</li>
+                <li>H.R. 928 (110th): Inspector General Reform Act of 2008</li>
+                <li>H.J.Res. 297 (103rd): To designate 1994 as “The Year of Gospel Music”.</li>
+                <li>H.R. 5667 (101st): To amend the Water Resources Development Act of 1974 to establish a deadline for the transfer of jurisdiction of the Big South Fork National River and Recreation ...</li>
+                <li>H.R. 971 (101st): Telephone Operator Consumer Services Improvement Act of 1990</li>
+            </ul>
+        </section>
         <footer></footer>
     </article>
 

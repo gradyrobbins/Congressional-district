@@ -1,0 +1,32 @@
+.navigation {
+    padding: 5px;
+    background-color: black;
+    margin: 0;
+}
+
+.list {
+    line-height: 1.1em;
+}
+
+.list--navigation {
+    list-style-type: none;
+    line-height: normal;
+}
+
+.listitem--navigation {
+    display: inline;
+    margin: 0 20px;
+}
+
+.basic-info {
+    padding: 25px;
+}
+
+.committees {
+    padding: 25px;
+    font-size: 1.5em;
+}
+.committees .enacted-legislation li {
+    padding: 25px;
+    font-family: cursive;
+}
