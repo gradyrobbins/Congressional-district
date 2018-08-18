@@ -10,3 +10,5 @@ Beneath the basic information, you will create a sub-component, using a section 
 The last component will hold links to any legislation that your representative has enacted.
 Make sure you use good BEM-style class names for each element in your components. Put a comment above each component explaining what it is.
 
+Advanced challenge
+In JavaScript, there is a method that creates a new attribute node for any DOM element. Discover that method and use it to create a custom attribute named congressional-district and its value should be your congressional district number. Then attach that attribute to the <article> container you made for your representative component.
